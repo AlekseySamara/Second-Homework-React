@@ -1,6 +1,7 @@
+  
 import './App.css';
 import {Comment} from './components/List/taskList';
-import {InputPlaceholder} from './components/input/inputPlace';
+import {ControlsBar} from './components/input/ControlsBar';
 
 
 
@@ -25,7 +26,7 @@ function App() {
    return (
       <div>
          <h1>Homework React Two</h1>
-         <InputPlaceholder/>
+         <ControlsBar/>
          <Comment tasks={tasks}/>
       </div>
    )    
