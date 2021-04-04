@@ -1,9 +1,6 @@
-  
 import './App.css';
-import {Comment} from './components/List/taskList';
-import {ControlsBar} from './components/input/ControlsBar';
-
-
+import {TaskList} from './components/TaskList/TaskList';
+import {ControlsBar} from './components/ControlsBar/ControlsBar';
 
 function App() {
    const tasks = [
@@ -27,7 +24,7 @@ function App() {
       <div>
          <h1>Homework React Two</h1>
          <ControlsBar/>
-         <Comment tasks={tasks}/>
+         <TaskList tasks={tasks}/>
       </div>
    )    
 }
